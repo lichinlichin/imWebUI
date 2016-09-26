@@ -1,0 +1,483 @@
+<!-- 
+	
+
+
+ -->
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+	<head>
+	  <meta charset="UTF-8">
+	  <title>MUI</title>
+	  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	  <meta name="keywords" content="" />
+	  <meta name="description" content="" />
+	  <meta name="apple-mobile-web-app-capable" content="no" />
+	  <meta name="format-detection" content="telephone=no" />
+	  <meta name="author" content="lichin" />
+	  <link rel="stylesheet" type="text/css" href="../css/style-imMUI.css" />
+	  <link rel="stylesheet" href="../css/style-demo.css" />
+	</head>
+	<body ontouchstart>
+		<div class="container">
+		</div>
+		<script type="text/html" id="tpl_home">
+			<div class="hd">
+				<h1 class="page_title">MUI</h1>
+				<p class="page_desc">瑞麦科技web项目移动UI库</p>
+			</div>
+			<div class="bd">
+				<div class="m_grids">
+					<a href="#/article/list" class="m_grid_item">
+						<p class="m_grid_label">文章</p>
+						<p class="m_grid_label">Article</p>
+					</a>
+					<a href="#/font" class="m_grid_item">
+						<p class="m_grid_label">字体</p>
+						<p class="m_grid_label">Font</p>
+					</a>
+					<a href="#/color" class="m_grid_item">
+						<p class="m_grid_label">颜色</p>
+						<p class="m_grid_label">Color</p>
+					</a>
+					<a href="#/dialog" class="m_grid_item">
+						<p class="m_grid_label">对话框</p>
+						<p class="m_grid_label">Dialog</p>
+					</a>
+					<a href="#/tab" class="m_grid_item">
+						<p class="m_grid_label">选项卡</p>
+						<p class="m_grid_label">Tab</p>
+					</a>
+					<a href="#/navbar" class="m_grid_item">
+						<p class="m_grid_label">菜单栏</p>
+						<p class="m_grid_label">Navbar</p>
+					</a>
+					<a href="#/comment" class="m_grid_item">
+						<p class="m_grid_label">评论</p>
+						<p class="m_grid_label">Comment</p>
+					</a>
+					<a href="#/downloadTip" class="m_grid_item">
+						<p class="m_grid_label">下载引导条</p>
+						<p class="m_grid_label">DownloadTip</p>
+					</a>
+					<a href="#/vote" class="m_grid_item">
+						<p class="m_grid_label">投票</p>
+						<p class="m_grid_label">Vote</p>
+					</a>
+					<a href="#/interlocution" class="m_grid_item">
+						<p class="m_grid_label">问答</p>
+						<p class="m_grid_label">interlocution</p>
+					</a>
+					<a href="#/audio" class="m_grid_item">
+						<p class="m_grid_label">音频</p>
+						<p class="m_grid_label">audio</p>
+					</a>
+				</div>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script type="text/html" id="tpl_interlocution">
+			<div class="hd">
+				<h1 class="page_title">Interlocution</h1>
+				<p class="page_desc">问答</p>
+			</div>
+			<div class="bd">
+				<ul class="m_interlocution">
+					<li class="m_item">
+	          <div class="question">
+	            <span class="tag">问</span>
+	            <div class="user_info">
+	              <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=00862605-56f4-43da-9829-c57630e2a3ff"><img src="" alt="">测试叶翠英</a>
+	              <span class="during">2016-08-11</span>
+	            </div>
+	            <div class="content">
+	              <p class="img_wrap">
+	                  <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/d54b5e00-d812-4f15-a857-e3b21e163b3b?imageView2/1/w/72/h/72" origin-url="http://7xqb3z.com2.z0.glb.qiniucdn.com/d54b5e00-d812-4f15-a857-e3b21e163b3b" alt="">
+	              </p>
+	              <p>内容</p>
+	            </div>
+	          </div>
+	          <div class="answer">
+	            <span class="tag">答</span>
+	            <div class="user_info">
+	              <a>主讲人</a>
+	              <span class="during">2016-08-19</span>
+	            </div>
+	            <div class="content">
+                <p>
+                  <audio src="http://ob7p62bd4.bkt.clouddn.com/%E5%8D%8E%E8%AF%AD%E7%BE%A4%E6%98%9F%20-%20%E5%B8%A6%E7%9D%80%E6%A2%A6%E6%83%B3%E9%A3%9E.mp3" data-duration="none">你的浏览器不支持播放音频</audio>
+                  <span class="m_audio">
+                    <span class="m_audio_block" style="width: 22%;">
+                      <span class="m_audio_progress"></span>
+                      <i class="icon">
+                        <i class="icon-1"></i>
+                        <i class="icon-2"></i>
+                        <i class="icon-3"></i>
+                      </i>
+                    </span>
+                    <span class="m_audio_during">03"</span>
+                  </span>
+                </p>
+	            </div>
+	          </div>
+	        </li>
+          <li class="m_item">
+            <div class="question">
+              <span class="tag">问</span>
+              <div class="user_info">
+                <a href=""><img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/67fbdf0f-e42f-49f7-8461-c2c8c02aa2d2" alt="">罗技</a>
+                <span class="during">10分钟前</span>
+              </div>
+              <div class="content">老师，请教问题，执业药师和临床药师哪个更有发展前途？</div>
+            </div>
+            <div class="answer">
+              <span class="tag">答</span>
+              <div class="user_info">
+                <a href="">主讲人</a>
+                <span class="during">10分钟前</span>
+              </div>
+              <div class="content">
+                <p>执业药师就成了杂家，什么都干不了，还能有地位？老师您怎么看？？</p>
+                <p><img src="" alt=""></p>
+              </div>
+            </div>
+          </li>
+          <li class="m_item">
+            <div class="question">
+              <span class="tag">问</span>
+              <div class="user_info">
+                <a href=""><img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/67fbdf0f-e42f-49f7-8461-c2c8c02aa2d2" alt="">罗技</a>
+                <span class="during">10分钟前</span>
+              </div>
+              <div class="content">老师，请教问题，执业药师和临床药师哪个更有发展前途？</div>
+            </div>
+            <div class="answer">
+              <span class="tag">答</span>
+              <div class="user_info">
+                <a href="">主讲人</a>
+                <span class="during">10分钟前</span>
+              </div>
+              <div class="content">
+                <p>
+                  <audio src="" data-duration="none">你的浏览器不支持播放音频</audio>
+                  <span class="m_audio">
+                    <span class="m_audio_block playing">
+                    	<span class="m_audio_progress"></span>
+                    	<i class="icon">
+                    		<i class="icon-1"></i>
+                    		<i class="icon-2"></i>
+                    		<i class="icon-3"></i>
+                    	</i>
+                  	</span>
+                    <span class="m_audio_during">1'30"</span>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script type="text/html" id="tpl_audio">
+			<div class="hd">
+				<h1 class="page_title">Audio</h1>
+				<p class="page_desc">音频</p>
+			</div>
+			<div class="bd">
+				<p>
+          <audio src="" data-duration="none">你的浏览器不支持播放音频</audio>
+          <span class="m_audio">
+            <span class="m_audio_block">
+            	<span class="m_audio_progress"></span>
+            	<i class="icon">
+            		<i class="icon-1"></i>
+            		<i class="icon-2"></i>
+            		<i class="icon-3"></i>
+            	</i>
+          	</span>
+            <span class="m_audio_during">1'30"</span>
+          </span>
+        </p>
+        <p>
+          <audio src="http://ob7p62bd4.bkt.clouddn.com/%E5%8D%8E%E8%AF%AD%E7%BE%A4%E6%98%9F%20-%20%E5%B8%A6%E7%9D%80%E6%A2%A6%E6%83%B3%E9%A3%9E.mp3" data-duration="none">你的浏览器不支持播放音频</audio>
+          <span class="m_audio">
+            <span class="m_audio_block playing">
+            	<span class="m_audio_progress"></span>
+            	<i class="icon">
+            		<i class="icon-1"></i>
+            		<i class="icon-2"></i>
+            		<i class="icon-3"></i>
+            	</i>
+          	</span>
+            <span class="m_audio_during">1'30"</span>
+          </span>
+        </p>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script type="text/html" id="tpl_downloadtip">
+			<div class="hd">
+				<h1 class="page_title">DownloadTip</h1>
+				<p class="page_desc">下载提示</p>
+			</div>
+			<div class="bd">
+				<div class="m_app">
+					<p>体验更多用药管理功能,请下载在乎健康APP</p>
+					<a class="m_app_btn" href="http://a.app.qq.com/o/simple.jsp?pkgname=com.remind.zaihu&ckey=CK1342640248795">立即下载</a>
+				</div>
+				<div class="m_app">
+					<img src="http://7xjwgk.com1.z0.glb.clouddn.com/favicon.ico" alt="">
+					<p class="m_title">在乎健康</p>
+					<p class="m_desc">体验更多用药管理功能</p>
+					<a class="m_app_btn" href="http://a.app.qq.com/o/simple.jsp?pkgname=com.remind.zaihu&ckey=CK1342640248795">立即下载</a>
+				</div>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script type="text/html" id="tpl_article_list">
+			<div class="hd">
+				<h1 class="page_title">Article</h1>
+				<p class="page_desc">文章</p>
+			</div>
+			<div class="bd">
+				<article class="m_article">
+					<h1>大标题</h1>
+	        <section>
+            <h2 class="title">章标题</h2>
+            <section>
+              <h3>1.1 节标题</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute</p>
+              <p>
+                <img src="../img/pic_article.png" alt="">
+                <img src="../img/pic_article.png" alt="">
+              </p>
+            </section>
+            <section>
+              <h3>1.2 节标题</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+	        </section>
+				</article>
+			</div>
+			<div class="ft"></div>
+		</script>
+
+		<script type="text/html" id="tpl_tab">
+			<div class="hd"></div>
+			<div class="bd"></div>
+			<div class="ft"></div>
+		</script>
+
+		<script type="text/html" id="tpl_comment">
+			<div class="hd">
+				<h1 class="page_title">Comment</h1>
+				<p class="page_desc">web页面评论区</p>
+			</div>
+			<div class="bd">
+				<ul class="m_comment">
+					<li class="m_comment_item">
+	          <div class="item_hd">
+	            <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	              <img src="http://phar-resources.zaihujk.com/FC715F04-96EC-499F-817E-CF1F4D9C4974" alt="">
+	            </a>
+	          </div>
+	          <div class="item_bd">
+	            <div class="user_info">
+	              <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	                <p>测试黎明前</p>
+	              </a>
+	              <span>岑溪市人民医院</span><span>学生或见习生</span>
+	              <span class="during">6天前</span>
+	            </div>
+	            <div class="message">
+	              <div class="my_msg">
+	                <p class="img_wrap">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/bfb310c4-f974-4c21-938c-ac53b1d7188b" alt="">
+	                </p>
+	                <p>2222</p>
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+					<li class="m_comment_item">
+	          <div class="item_hd">
+	            <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	              <img src="http://phar-resources.zaihujk.com/FC715F04-96EC-499F-817E-CF1F4D9C4974" alt="">
+	            </a>
+	          </div>
+	          <div class="item_bd">
+	            <div class="user_info">
+	              <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	                <p>测试黎明前</p>
+	              </a>
+	              <span>岑溪市人民医院</span><span>学生或见习生</span>
+	              <span class="during">6天前</span>
+	            </div>
+	            <div class="message">
+	              <div class="my_msg">
+	                <p class="img_wrap">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/bfb310c4-f974-4c21-938c-ac53b1d7188b" alt="">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/8d9188e3-d89c-456f-a308-4b7e57baf7a2" alt="">
+	                </p>
+	                <p>2222</p>
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+					<li class="m_comment_item">
+	          <div class="item_hd">
+	            <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	              <img src="http://phar-resources.zaihujk.com/FC715F04-96EC-499F-817E-CF1F4D9C4974" alt="">
+	            </a>
+	          </div>
+	          <div class="item_bd">
+	            <div class="user_info">
+	              <a href="http://pro.zaihujk.com/pharmacist/pharmacist/profile?u=ca629f51-a54d-414a-9338-326180718a95">
+	                <p>测试黎明前</p>
+	              </a>
+	              <span>岑溪市人民医院</span><span>学生或见习生</span>
+	              <span class="during">6天前</span>
+	            </div>
+	            <div class="message">
+	              <div class="my_msg">
+	                <p class="img_wrap">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/bfb310c4-f974-4c21-938c-ac53b1d7188b" alt="">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/8d9188e3-d89c-456f-a308-4b7e57baf7a2" alt="">
+	                    <img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/bfb310c4-f974-4c21-938c-ac53b1d7188b" alt="">
+	                </p>
+	                <p>2222</p>
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+					<li class="m_comment_item">
+						<div class="item_hd">
+							<a href="">
+								<img src="http://phar-resources.zaihujk.com/4F610BC8-CA4E-47DF-A09A-AA0262C99DAE" alt="">
+							</a>
+						</div>
+						<div class="item_bd">
+							<div class="user_info">
+								<a href="">
+									<p>唐晓亮</p>
+								</a>
+								<span>福建省福州市</span><span>学生或见习生</span>
+								<span class="during">刚刚</span>
+							</div>
+							<div class="message">
+								<div class="origin_msg">
+									<a href="">
+										<span class="origin_user">李文超</span>
+									</a>
+									<span>很赞！怎么没有程老师靓照😃很赞！怎么没有程老师靓照😃很赞！怎么没有程老师靓照😃</span>
+								</div>
+								<div class="my_msg">我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照~^O^</div>
+							</div>
+						</div>
+					</li>
+					<li class="m_comment_item">
+						<div class="item_hd">
+							<a href="">
+								<img src="http://7xqb3z.com2.z0.glb.qiniucdn.com/67fbdf0f-e42f-49f7-8461-c2c8c02aa2d2" alt="">
+							</a>
+						</div>
+						<div class="item_bd">
+							<div class="user_info">
+								<a href="">
+									<p>唐晓亮</p>
+								</a>
+								<span>广东省深圳市</span><span>学生或见习生</span>
+								<span class="during">刚刚</span>
+							</div>
+							<div class="message">
+								<div class="my_msg">我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照~^O^</div>
+							</div>
+						</div>
+					</li>
+					<li class="m_comment_item">
+						<div class="item_hd">
+							<a href="">
+								<img src="http://phar-resources.zaihujk.com/4F610BC8-CA4E-47DF-A09A-AA0262C99DAE" alt="">
+							</a>
+						</div>
+						<div class="item_bd">
+							<div class="user_info">
+								<a href="">
+									<p>唐晓亮</p>
+								</a>
+								<span>四川省成都市</span><span>学生或见习生</span>
+								<span class="during">刚刚</span>
+							</div>
+							<div class="message">
+								<div class="origin_msg">
+									<a href="">
+										<span class="origin_user">李文超</span>
+									</a>
+									<span>很赞！怎么没有程老师靓照😃很赞！怎么没有程老师靓照😃很赞！怎么没有程老师靓照😃</span>
+								</div>
+								<div class="my_msg">我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照我也想要程老师的靓照~^O^</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script type="text/html" id="tpl_navbar">
+			<div class="hd">
+				<h1 class="page_title">Navbar</h1>
+				<p class="page_desc">1~3为基础样式</p>
+				<p class="page_desc">4为边框样式</p>
+				<p class="page_desc">5为项目中常用样式</p>
+			</div>
+			<div class="bd">
+				<div class="m_navbar" id="navbar_1">
+					<a href="javascript:;" class="m_navbar_item active">选项一</a>
+				</div>
+				<div class="m_navbar" id="navbar_1">
+					<a href="javascript:;" class="m_navbar_item active">选项一</a>
+					<a href="javascript:;" class="m_navbar_item">选项二</a>
+				</div>
+				<div class="m_navbar" id="navbar_2">
+					<a href="javascript:;" class="m_navbar_item active">选项一</a>
+					<a href="javascript:;" class="m_navbar_item">选项二</a>
+					<a href="javascript:;" class="m_navbar_item">选项三</a>
+				</div>
+				<div class="m_navbar" id="navbar_3">
+					<a href="javascript:;" class="m_navbar_item active">选项一</a>
+					<a href="javascript:;" class="m_navbar_item">选项二</a>
+					<a href="javascript:;" class="m_navbar_item">选项三</a>
+					<a href="javascript:;" class="m_navbar_item">选项四</a>
+				</div>
+				<div class="m_navbar m_navbar_1" id="navbar_4">
+					<a href="javascript:;" class="m_navbar_item active">选项一</a>
+					<a href="javascript:;" class="m_navbar_item">选项二</a>
+					<a href="javascript:;" class="m_navbar_item">选项三</a>
+				</div>
+				<div class="m_navbar m_navbar_2" id="navbar_4">
+					<a href="javascript:;" class="m_navbar_item active">
+						<p>选项一</p>
+					</a>
+					<a href="javascript:;" class="m_navbar_item">
+						<p>选项二</p>
+					</a>
+					<a href="javascript:;" class="m_navbar_item">
+						<p>选项三</p>
+					</a>
+				</div>
+			</div>
+			<div class="ft"></div>
+		</script>
+		<script src="../js/zepto.js"></script>
+		<script src="../js/fastclick.js"></script>
+		<script src="../js/router.js"></script>
+		<script src="../js/index.js"></script>
+	</body>
+</html>

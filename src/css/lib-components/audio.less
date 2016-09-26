@@ -1,0 +1,119 @@
+@-webkit-keyframes c1 {
+  0% {background-color: #666;}
+	25% {background-color: #63d145;}
+  100% {background-color: #63d145;}
+}
+@keyframes c1 {
+  0% {background-color: #666;}
+	25% {background-color: #63d145;}
+  100% {background-color: #63d145;}
+}
+@-webkit-keyframes c2 {
+  0% {border-right-color: #666;}
+	50% {border-right-color: #63d145;}
+  100% {border-right-color: #63d145;}
+}
+@keyframes c2 {
+  0% {border-right-color: #666;}
+	50% {border-right-color: #63d145;}
+  100% {border-right-color: #63d145;}
+}
+@-webkit-keyframes c3 {
+  0% {border-right-color: #666;}
+	75% {border-right-color: #63d145;}
+  100% {border-right-color: #63d145;}
+}
+@keyframes c3 {
+  0% {border-right-color: #666;}
+	75% {border-right-color: #63d145;}
+  100% {border-right-color: #63d145;}
+}
+
+.m_audio {
+	display: block;
+	color: #777;
+	line-height: 1.5rem;
+
+	* {
+		-webkit-tap-highlight-color: transparent;
+		-webkit-user-select: none;
+	}
+
+	.m_audio_block {
+		position: relative;
+		display: inline-block;
+		max-width: 80%;
+		min-width: 20%;
+		border: 1px solid #dedede;
+		border-radius: 4px;
+		background-color: #f5f5f5;
+		width: 80%;
+		height: 1.5rem;
+		margin-right: .2rem;
+		margin-bottom: .1rem;
+		vertical-align: middle;
+		overflow: hidden;
+		cursor: pointer;
+
+		.icon {
+			position: absolute;
+			display: block;
+			left: 5px;
+			width: 1.5rem;
+			height: 1.5rem;
+			top: 0;
+			left: 0;
+
+			i {
+				display: block;
+				position: absolute;
+				border-radius: 100%;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			.icon-1 {
+				width: 2px;
+				height: 2px;
+				background-color: #666;
+			}
+			.icon-2 {
+				width: 12px;
+				height: 12px;
+				border: 2px solid transparent;
+				border-right-color: #666;
+			}
+			.icon-3 {
+				width: 22px;
+				height: 22px;
+				border: 2px solid transparent;
+				border-right-color: #666;
+			}
+
+		}
+	}
+	.m_audio_progress {
+		display: block;
+		width: 0;
+		max-width: 100%;
+		height: 100%;
+		background-color: #99FFCC;
+		transition: width .1s ease;
+	}
+
+	.m_audio_block.playing {
+		.icon-1 {
+			-webkit-animation: c1 1s infinite;
+  		animation: c1 1s infinite;
+		}
+		.icon-2 {
+			-webkit-animation: c2 1s infinite;
+  		animation: c2 1s infinite;
+		}
+		.icon-3 {
+			-webkit-animation: c3 1s infinite;
+  		animation: c3 1s infinite;
+		}
+	}
+}

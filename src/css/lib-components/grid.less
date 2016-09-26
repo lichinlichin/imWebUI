@@ -1,0 +1,29 @@
+
+.m_grids {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid @muiGridBorderColor;
+	border-left: 1px solid @muiGridBorderColor;
+}
+
+.m_grid_item {
+	position: relative;
+	float: left;
+	padding: 1rem .5rem;
+	width: 100% / @muiGridColumnCount;
+	border-right: 1px solid @muiGridBorderColor;
+	border-bottom: 1px solid @muiGridBorderColor;
+
+	&:active {
+		background-color: @itemActiveColor;
+	}
+}
+
+.m_grid_label {
+	display: block;
+	text-align: center;
+	color: @globalTitleColor;
+	font-size: @muiGridFontSize;
+}
